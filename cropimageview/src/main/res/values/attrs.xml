@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CropImageView">
+        <attr name="colorBorder" format="color|reference"/>
+        <attr name="colorShadow" format="color|reference"/>
+        <attr name="cropMode" format="enum">
+            <enum name="none" value="1"/>
+            <enum name="rectangle" value="1"/>
+            <enum name="circle" value="2"/>
+        </attr>
+        <attr name="fixAspectRatio" format="boolean"/>
+        <attr name="maxCropWidth" format="integer"/>
+        <attr name="maxCropHeight" format="integer"/>
+        <attr name="showTouchTarget" format="boolean"/>
+    </declare-styleable>
+
+</resources>

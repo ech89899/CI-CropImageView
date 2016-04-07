@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CI CropImageView</string>
+    <string name="app_path">CI_CropImageView</string>
+    <string-array name="dialog_select_picture">
+        <item>Use camera</item>
+        <item>Select from gallery</item>
+    </string-array>
+
+    <!-- Menu -->
+    <string name="menu_crop_image_circle">Circle</string>
+    <string name="menu_crop_image_rectangle">Rectangle</string>
+</resources>
